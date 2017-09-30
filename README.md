@@ -8,6 +8,16 @@ References to Code for America style guidelines can be resolved at https://style
 
 ## Print (CMYK)
 
+### Reminders
+
+Please remember to include links to CfA and Techlahoma (and logos if space permits).
+
+### Sizing
+
+The flyer is 9" x 11.5" overall w/ 0.25" bleeds.
+
+The business card is double-sided 3.75" x 2.25" overall w/ 0.125" bleeds.
+
 ### Logo
 
 CourtBot Logo Text: C5 M5 Y5 K95
@@ -30,6 +40,10 @@ Header Strong/Bold: 22pt Gotham Bold, small caps. CfA Dark Blue.
 
 ## Web (RGB)
 
+### Reminders
+
+Please remember to include links to CfA and Techlahoma (and logos if space permits).
+
 ### Logo
 
 CourtBot Logo Text: #000 (black)
@@ -42,12 +56,12 @@ CourtBot Body Shadow: #b5571f
 
     html {
     	font-size: 100%; /* 16px */
-	    line-height: 1.25em; /* baseline grid is half this, set to 0.625rem */
+	    line-height: 1.25em; /* calculated baseline grid is half this, set to 0.625rem */
 	    font-family: 'Gotham Book', Helvetica, sans-serif;
     }
 
     p {
-	    margin-bottom: 1.25rem;
+	    margin-top: 1.25rem;
 	    color: $color-gray; /* #6D6E71 */
     }
 
@@ -65,7 +79,7 @@ CourtBot Body Shadow: #b5571f
     h1 {
 	    font-size: 1.5rem;
 	    font-weight: bold;
-	    margin-bottom: 1rem ; /* margin-top and margin-bottom collapse into each other, so making up baseline grid proportions here: 3 * .625rem = 1.875rem - 1.5rem(text height) = 0.375rem + .625rem = 1 rem */
+	    margin-top: 1rem ; /* margin-top and margin-bottom collapse into each other, so making up baseline grid proportions here: 3 * .625rem = 1.875rem - 1.5rem(text height) = 0.375rem + .625rem = 1 rem */
 	    font-variant: small-caps;
 	    color: $color-blue; /* #399fd3 */
     }
@@ -73,3 +87,8 @@ CourtBot Body Shadow: #b5571f
     h1 strong, h1 b {
 	    color: $color-dark-blue; /* #004b6a */
     }
+
+## Todo
+
+[ ] Create CMYK colorspace SVGs for remainder of CourtBot assets (Currently they're embedded in the Scribus files)
+[ ] Test SCSS styles for CourtBot branded websites
