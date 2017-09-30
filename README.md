@@ -53,7 +53,7 @@ Please remember to include links to CfA and Techlahoma (and logos if space permi
 ### Fonts (In Progress)
 
     html {
-    font-size: 100%; /* 16px */
+        font-size: 100%; /* 16px */
 	    line-height: 1.25em; /* calculated baseline grid is half this, set to 0.625rem */
 	    font-family: 'Gotham Book', Helvetica, sans-serif;
     }
