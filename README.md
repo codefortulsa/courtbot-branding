@@ -20,23 +20,23 @@ The business card is double-sided 3.75" x 2.25" overall w/ 0.125" bleeds.
 
 ### Logo
 
-CourtBot Logo Text: C5 M5 Y5 K95
-CourtBot Outline: C5 M5 Y5 K95
-CourtBot Background Color: C4 M2 Y16 K0
-CourtBot Lighter Background Color: C2 M1 Y8 K0
-CourtBot Body Gold: C0 M11 Y73 K0
-CourtBot Body Shadow: C0 M70 Y61 K25
+* CourtBot Logo Text: C5 M5 Y5 K95
+* CourtBot Outline: C5 M5 Y5 K95
+* CourtBot Background Color: C4 M2 Y16 K0
+* CourtBot Lighter Background Color: C2 M1 Y8 K0
+* CourtBot Body Gold: C0 M11 Y73 K0
+* CourtBot Body Shadow: C0 M70 Y61 K25
 
 ### Fonts
 
-Baseline Grid: 9.375pt (125% of 15pt, then halved for additional vertical rhythm control)
+* Baseline Grid: 9.375pt (125% of 15pt, then halved for additional vertical rhythm control)
 
-Default Paragraph: 15pt Gotham Book w/ 18.75pt after-paragraph spacing. CfA Gray.
-Default Paragraph Italic/Emphasis: 15pt Gotham Book. CfA Blue.
-Default Paragraph Strong/Bold: 18pt Gotham Bold, small caps. CfA Dark Blue.
+* Default Paragraph: 15pt Gotham Book w/ 18.75pt after-paragraph spacing. CfA Gray.
+* Default Paragraph Italic/Emphasis: 15pt Gotham Book. CfA Blue.
+* Default Paragraph Strong/Bold: 18pt Gotham Bold, small caps. CfA Dark Blue.
 
-Header: 22pt Gotham Bold w/ 18.75pt after-paragraph spacing, small caps. CfA Blue.
-Header Strong/Bold: 22pt Gotham Bold, small caps. CfA Dark Blue.
+* Header: 22pt Gotham Bold w/ 18.75pt after-paragraph spacing, small caps. CfA Blue.
+* Header Strong/Bold: 22pt Gotham Bold, small caps. CfA Dark Blue.
 
 ## Web (RGB)
 
@@ -46,11 +46,11 @@ Please remember to include links to CfA and Techlahoma (and logos if space permi
 
 ### Logo
 
-CourtBot Logo Text: #000 (black)
-CourtBot Outline: #000 (black)
-CourtBot Background Color: #fcfbe3
-CourtBot Body Gold: #ffdf53
-CourtBot Body Shadow: #b5571f
+* CourtBot Logo Text: #000 (black)
+* CourtBot Outline: #000 (black)
+* CourtBot Background Color: #fcfbe3
+* CourtBot Body Gold: #ffdf53
+* CourtBot Body Shadow: #b5571f
 
 ### Fonts (In Progress)
 
@@ -90,5 +90,5 @@ CourtBot Body Shadow: #b5571f
 
 ## Todo
 
-[ ] Create CMYK colorspace SVGs for remainder of CourtBot assets (Currently they're embedded in the Scribus files)
-[ ] Test SCSS styles for CourtBot branded websites
+- [ ] Create CMYK colorspace SVGs for remainder of CourtBot assets (Currently they're embedded in the Scribus files)
+- [ ] Test SCSS styles for CourtBot branded websites
