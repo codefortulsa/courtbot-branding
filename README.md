@@ -30,11 +30,9 @@ The business card is double-sided 3.75" x 2.25" overall w/ 0.125" bleeds.
 ### Fonts
 
 * Baseline Grid: 9.375pt (125% of 15pt, then halved for additional vertical rhythm control)
-
 * Default Paragraph: 15pt Gotham Book w/ 18.75pt after-paragraph spacing. CfA Gray.
 * Default Paragraph Italic/Emphasis: 15pt Gotham Book. CfA Blue.
-* Default Paragraph Strong/Bold: 18pt Gotham Bold, small caps. CfA Dark Blue.
-
+* Default Paragraph Strong/Bold: 18pt Gotham Bold, small caps. CfA Dark Blue.   
 * Header: 22pt Gotham Bold w/ 18.75pt after-paragraph spacing, small caps. CfA Blue.
 * Header Strong/Bold: 22pt Gotham Bold, small caps. CfA Dark Blue.
 
@@ -55,7 +53,7 @@ Please remember to include links to CfA and Techlahoma (and logos if space permi
 ### Fonts (In Progress)
 
     html {
-    	font-size: 100%; /* 16px */
+    font-size: 100%; /* 16px */
 	    line-height: 1.25em; /* calculated baseline grid is half this, set to 0.625rem */
 	    font-family: 'Gotham Book', Helvetica, sans-serif;
     }
