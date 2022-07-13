@@ -4,8 +4,6 @@ This repository contains the files for CourtBot branding. I don't want to get al
 
 Most of the files are InkScape/Scribus, due to issues with exporting CYMK color spaces from InkScape. (See http://libregraphicsworld.org/blog/entry/getting-cmyk-colors-from-inkscape-to-scribus for more details.)
 
-References to Code for America style guidelines can be resolved at https://style.codeforamerica.org/
-
 ## Print (CMYK)
 
 ### Reminders
